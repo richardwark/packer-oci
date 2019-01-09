@@ -1,6 +1,6 @@
 # Creating Customer OCI Images using Packer
 
-Welcome to the **Oracle Public Cloud** Packer-OCI workshop. This workshop will walk you through the process of creating an custom infrastructure image to support a varity of DevOps and production use-cases.
+Welcome to the **Oracle Cloud Infrastructure** Compute image management with Packer workshop. This workshop will walk you through the process of creating an custom infrastructure image to support a varity of DevOps and production use-cases.
 
 To learn more about this workshop please watch the video below.  
 
