@@ -1,25 +1,19 @@
 
-# Docker Workshop
+# Packer Workshop - Your environment  Set Up
 
 ![](images/100Linux/Title100.png)
 
 ## Introduction
-In this lab we introduce some basic concepts of Docker, container architectures and functions.  We will do this using a single container which provides a REST service as part of a node.js application.  The application has two pieces, which provide a microservice.
+In this lab we introduce the basics of packer. The goal will be to create your first image and log into an instance of that image.
 
-- Datasource: A simple JSON file included in the container
-- REST Client: To serve up data from the datasource
-
-You will use various Docker commands to setup, run and connect into containers. In this introduction you will explore concepts of Docker volumes, networking and container architecture.
+To do this, you will first need packer installed on your laptop.  Packer can then use "providers" to build images in various cloud (OCI, AWS, Abibaba) and virtualization environments.
 
 ***To log issues***, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
 ## Objectives
 
-- Deploy and test a simple Docker container running a simple application
-- Introduce and use the Docker Hub registry
-- Familiarize yourself with Docker commands (ps, run, exec)
-- Understand foundational concepts of container networking and filesystem mapping
-
+- Prep your laptop
+-
 
 ## Required Artifacts
 
