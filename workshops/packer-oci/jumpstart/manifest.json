@@ -1,0 +1,15 @@
+{
+    "workshop": {
+        "title": "Docker Demo Lab",
+        "description": "Get hands-on with Docker on the Oracle Cloud",
+        "theme": "default",
+        "labs": [
+            {
+                "number": "0",
+                "filename": "README.md",
+                "title": "Demo Lab Guide",
+                "description": "Demo Lab Guide"
+            }
+        ]
+    }
+}
