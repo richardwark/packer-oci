@@ -1,4 +1,4 @@
-# Creating Customer OCI Images using Packer
+# Creating OCI Images using Packer
 
 Welcome to the **Oracle Cloud Infrastructure** Compute image building with Packer workshop. This workshop will walk you through the process of creating an custom infrastructure image to support a varity of DevOps and production use-cases.
 
@@ -7,6 +7,7 @@ To learn more about this workshop please watch the video below.
 ![](images/)
 
 <a href="https://www.youtube.com/watch?v=ivNEREBsH9k&t=0s&index=3&list=PLPIzp-E1msrYGLKIgW3njO3uUkvXD0bAH" target="_video">Workshop Overview</a>
+
 
 **Step 1**: Acquire an Oracle Cloud Trial Account
 
@@ -21,8 +22,6 @@ To learn more about this workshop please watch the video below.
 ### **Step 2**: Navigate to Lab 100
 
 - [Click here to navigate to Lab 100](Lab100.md)
-- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, **Select Lab 100: Cloud Infrastructure Trial Setup**.
+- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, **Select Lab 100: Cloud Infrastructure Configuration**.
 
   ![](images/Introham.png)
-
-  ![](images/Introham2.png)
