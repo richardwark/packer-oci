@@ -2,6 +2,12 @@
 
 Welcome to the **Oracle Cloud Infrastructure** Compute image building with Packer workshop. This workshop will walk you through the process of creating an custom infrastructure image to support a varity of DevOps and production use-cases.
 
+As part of this workshop, you will complete labs helping you to better understand:
+
+- Configuring OCI to support and Image
+- Launching and image and installing software (packer and git)
+- Using Packer and Git to build a custom OCI image which is configured to support a desktop login via VNC, firewall configuration and a custom environment (alias setup and variables)
+
 To learn more about this workshop please watch the video below.  
 
 ![](images/)
