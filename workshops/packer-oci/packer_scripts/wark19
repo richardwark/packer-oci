@@ -1,9 +1,9 @@
-    { "my.user_ocid":"ocid1.user.oc1..aaaaaaaa7vszqenhspykfxrtrxnmm3sfibwseeowf4xc7fnvo544r3ya6rca",
-      "my.tenancy_ocid": "ocid1.tenancy.oc1..aaaaaaaa4kqp6dhyoiigd7tli64w5kuxcx5bvzpaczc3mchgcz2izxasxtnq",
-      "my.fingerprint":"e9:b3:3b:ed:e7:45:ce:b1:76:75:62:0f:57:92:ce:fc",
-      "my.availability_domain": "FFQG:US-ASHBURN-AD-1",
+    { "my.user_ocid":"ocid1.user.oc1..aaaaaaaarwd5fsdfnjz5gaff5biqk6ekxxn62yutma7y5btfijebqibfbc6q",
+      "my.tenancy_ocid": "ocid1.tenancy.oc1..aaaaaaaa4cq3kgpb357a3l3rt5hjykaopou4dnaktuki2qldwz67hxdmvera",
+      "my.fingerprint":"34:aa:0d:3a:b5:eb:c0:43:dc:18:9b:4c:d9:f2:18:c1",
+      "my.availability_domain": "JLlL:US-ASHBURN-AD-1",
       "my.region": "us-ashburn-1",
       "my.base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaarsu56scul4muz3sqbptvykipy2rn6re3wzdjvncgcpgqt5cp3wja",
-      "my.compartment_ocid": "ocid1.compartment.oc1..aaaaaaaaakd3zybjjcjmbuck27qg5zvzrsb43s5rdv4maa2nistbkw7v53wq",
-      "my.subnet_ocid": "ocid1.subnet.oc1.iad.aaaaaaaaqaf7sm4qiqij6m7t2a6krkki2swaf4h55qsltfenxiijr72m667a"
+      "my.compartment_ocid": "ocid1.compartment.oc1..aaaaaaaazusab5sogdqvzcc6pzzdomtkqcf7kcvkuecp77ln5rhcfe6nweqq",
+      "my.subnet_ocid": "ocid1.subnet.oc1.iad.aaaaaaaaxnk3nhxptjxqbax3ikwo3yg5nto5akbps3ujuvsllwzjlmitwgza"
     }
