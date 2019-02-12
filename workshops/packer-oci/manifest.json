@@ -1,13 +1,10 @@
 {
     "workshop": {
-        "title": "Docker Workshop",
+        "title": "Packer Workshop",
         "description": "These labs will give you a basic understanding of Docker concepts and deployments",
         "interactive":"https://launch.oracle.com/?docker-workshop",
         "versions": [
             {
-              "name": "Linux Trial Account",
-              "description": "Use Linux to develop and deploy with Docker and perform this workshop",
-              "imageUrl": "https://oracle.github.io/learning-library/workshops/common-content/images/common/linux.png"
             }
         ],
         "labs": [
@@ -16,7 +13,7 @@
                 "filename": "Intro.md",
                 "title": "Introduction",
                 "description": "Obtain an Oracle Cloud Trial Account",
-                "labels": {"version": "Linux Trial Account"}
+                "labels": {}
             },
             {
                 "number": "1",
