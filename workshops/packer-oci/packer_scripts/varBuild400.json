@@ -18,7 +18,7 @@
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
       "compartment_ocid": "{{user `my.compartment_oci`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
-      "image_name": "varBuild400",
+      "image_name": "Build400",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",

@@ -16,7 +16,7 @@
       "region": "us-ashburn-1",
       "base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaarsu56scul4muz3sqbptvykipy2rn6re3wzdjvncgcpgqt5cp3wja",
       "compartment_ocid": "{{user `my.compartment_ocid`}}",
-      "image_name": "varBuild300",
+      "image_name": "Build300",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",

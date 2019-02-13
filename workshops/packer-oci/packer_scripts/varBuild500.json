@@ -18,11 +18,11 @@
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
       "compartment_ocid": "{{user `my.compartment_oci`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
-      "image_name": "varBuild500",
+      "image_name": "Build500",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
-      "key_file":"packerkey",
+      "key_file":"~/.oci/packer_api_key.pem",
       "type": "oracle-oci"
     }
   ],
