@@ -20,8 +20,8 @@
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
-      "key_file":"keys/packer_api_key.pem",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
+      "key_file":"~/.oci/packer_api_key.pem",
       "type": "oracle-oci"
     }
   ],

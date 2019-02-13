@@ -22,7 +22,7 @@
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
-      "key_file":"packerkey",
+      "key_file":"~/.oci/packer_api_key.pem",
       "type": "oracle-oci"
     }
   ],
