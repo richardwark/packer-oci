@@ -3,32 +3,25 @@
         "title": "Packer Workshop",
         "description": "These labs will give you a basic understanding of Packer concepts and deployments",
         "interactive":"https://launch.oracle.com/?packer-workshop",
-        "versions": [
-            {
-            }
-        ],
         "labs": [
             {
                 "number": "0",
                 "filename": "Intro.md",
                 "title": "Introduction",
-                "description": "Introduction to Building Packer images on OCI",
-                "labels": {""}
+                "description": "Introduction to Building Packer images on OCI"
             },
            
             {
                 "number": "100",
                 "filename": "Lab100.md",
                 "title": "Lab 100: Packer Introduction",
-                "description": "Concepts, commands and a simple deployment",
-                "labels": {"version": "Linux Trial Account"}
+                "description": "Concepts, commands and a simple deployment"
             },
             {
                 "number": "200",
                 "filename": "Lab200.md",
                 "title": "Linux Lab 200: AlphaOffice Deployment",
-                "description": "Multi-container Application deployment using a Database",
-                "labels": {"version": "Linux Trial Account"}
+                "description": "Multi-container Application deployment using a Database"
             }
         ]
     }
