@@ -26,19 +26,13 @@
             {
                 "number": "300",
                 "filename": "Lab300.md",
-                "title": " Lab 300: First Packer Build",
-                "description": "Build your first Image in OCI"
+                "title": " Lab 300: Basic Concepts of Packer",
+                "description": "Multi-container Application deployment using a Database"
             },
             {
                 "number": "400",
                 "filename": "Lab400.md",
-                "title": " Lab 400: Basic Concepts of Packer",
-                "description": "Multi-container Application deployment using a Database"
-            },
-            {
-                "number": "500",
-                "filename": "Lab500.md",
-                "title": " Lab 500: Full Docker Developer Image Build",
+                "title": " Lab 400: Full Docker Developer Image Build",
                 "description": "Build a Image complete with Desktop and Docker"
             }
         ]
