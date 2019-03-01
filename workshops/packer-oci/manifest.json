@@ -27,13 +27,13 @@
                 "number": "300",
                 "filename": "Lab300.md",
                 "title": " Lab 300: Basic Concepts of Packer",
-                "description": "Multi-container Application deployment using a Database"
+                "description": "Simple file-upload, Package Installation and Labeling"
             },
             {
                 "number": "400",
                 "filename": "Lab400.md",
                 "title": " Lab 400: Full Docker Developer Image Build",
-                "description": "Build a Image complete with Desktop and Docker"
+                "description": "Build a Image complete with Desktop, Services and Docker"
             }
         ]
     }
