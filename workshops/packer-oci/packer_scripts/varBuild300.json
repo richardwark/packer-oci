@@ -1,4 +1,3 @@
-
 {
  "_comment": "You can find all the base images for OCI here...https://docs.cloud.oracle.com/iaas/images/ ",
  "_comment": "we will be using CentOS, so select the one in the Datacenter youre building in... ",
@@ -18,7 +17,7 @@
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
       "compartment_ocid": "{{user `my.compartment_oci`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
-      "image_name": "Build400",
+      "image_name": "Build300",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
@@ -33,7 +32,7 @@
       "type": "shell",
       "inline": [
         "sleep 3",
-	      "sudo -u root echo 'varBuild400' > .ImageID",
+	      "sudo -u root echo 'varBuild300' > .ImageID",
 	      "sudo -u root yum install -y git tigervnc tigervnc-server xclip docker wget zip"
  	     ]
     },
