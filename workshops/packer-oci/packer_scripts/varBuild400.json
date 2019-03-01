@@ -18,7 +18,7 @@
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
       "compartment_ocid": "{{user `my.compartment_oci`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
-      "image_name": "Build400",
+      "image_name": "Build500",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
@@ -33,9 +33,13 @@
       "type": "shell",
       "inline": [
         "sleep 3",
-	      "sudo -u root echo 'varBuild400' > .ImageID",
-	      "sudo -u root yum install -y git tigervnc tigervnc-server xclip docker wget zip"
- 	     ]
+	"sudo -u root echo 'varBuild500' > .ImageID",
+	"sudo -u root yum install -y git tigervnc tigervnc-server xclip docker wget zip",
+        "sudo -u root yum groupinstall -y 'server with gui'",
+	"sudo -u root firewall-cmd --permanent --zone=public --add-port=5910/tcp",
+	"sudo -u root firewall-cmd --permanent --zone=public --add-port=5911/tcp",
+        "sudo -u root firewall-cmd --reload"
+ 	        ]
     },
     {
         "type": "file",
@@ -43,9 +47,35 @@
         "destination": "/tmp/selinux_config"
      },
      {
+        "type": "file",
+        "source": "SharedCentOS/lowresVNC",
+        "destination": "/tmp/vncserver@:10.service"
+     },
+     {
+        "type": "file",
+        "source": "SharedCentOS/highresVNC",
+        "destination": "/tmp/vncserver@:11.service"
+     },
+     {
+        "type": "file",
+        "source": "SharedCentOS/changepasswdVNC",
+        "destination": "/tmp/changepasswdVNC.sh"
+     },
+
+     {
       "type": "shell",
       "inline": [
-        "sudo -u root cp /tmp/selinux_config /etc/selinux/config"
+        "sudo -u root cp /tmp/selinux_config /etc/selinux/config",
+        "sudo -u root cp /tmp/vncserver* /etc/systemd/system/",
+        "sudo -u root systemctl enable vncserver@:10.service",
+        "sudo -u root systemctl enable vncserver@:11.service",
+        "sudo -u root systemctl enable docker",
+        "sudo -u root groupadd docker",
+        "sudo -u root usermod -aG docker opc",
+        "sudo -u root chmod +x /tmp/changepasswdVNC.sh",
+	"sudo -u root /tmp/changepasswdVNC.sh",
+        "sudo -u opc vncserver;sleep 5",
+        "sudo -u root systemctl daemon-reload"
        ]
     }
   ]

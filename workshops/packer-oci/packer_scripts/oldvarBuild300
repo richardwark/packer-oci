@@ -1,4 +1,3 @@
-
 {
  "_comment": "You can find all the base images for OCI here...https://docs.cloud.oracle.com/iaas/images/ ",
  "_comment": "we will be using CentOS, so select the one in the Datacenter youre building in... ",
@@ -14,39 +13,25 @@
       "tenancy_ocid":"{{user `my.tenancy_ocid`}}",
       "fingerprint":"{{user `my.fingerprint`}}",
       "availability_domain": "{{user `my.availability_domain`}}",
-      "region": "{{user `my.region`}}",
-      "base_image_ocid": "{{user `my.base_image_ocid`}}",
-      "compartment_ocid": "{{user `my.compartment_oci`}}",
-      "subnet_ocid": "{{user `my.subnet_ocid`}}",
-      "image_name": "Build400",
+      "region": "us-ashburn-1",
+      "base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaarsu56scul4muz3sqbptvykipy2rn6re3wzdjvncgcpgqt5cp3wja",
+      "compartment_ocid": "{{user `my.compartment_ocid`}}",
+      "image_name": "Build300",
       "shape": "VM.Standard2.2",
       "ssh_username": "opc",
       "ssh_password": "welcome1",
+      "subnet_ocid": "{{user `my.subnet_ocid`}}",
       "key_file":"~/.oci/packer_api_key.pem",
       "type": "oracle-oci"
     }
   ],
-  
-  
   "provisioners": [
     {
       "type": "shell",
       "inline": [
         "sleep 3",
-	      "sudo -u root echo 'varBuild400' > .ImageID",
-	      "sudo -u root yum install -y git tigervnc tigervnc-server xclip docker wget zip"
- 	     ]
-    },
-    {
-        "type": "file",
-        "source": "SharedCentOS/selinux_config",
-        "destination": "/tmp/selinux_config"
-     },
-     {
-      "type": "shell",
-      "inline": [
-        "sudo -u root cp /tmp/selinux_config /etc/selinux/config"
-       ]
+	"sudo -u root echo 'varBuild300' > .ImageID"
+      ]
     }
   ]
 }
