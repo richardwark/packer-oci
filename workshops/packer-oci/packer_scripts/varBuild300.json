@@ -15,7 +15,7 @@
       "availability_domain": "{{user `my.availability_domain`}}",
       "region": "{{user `my.region`}}",
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
-      "compartment_ocid": "{{user `my.compartment_oci`}}",
+      "compartment_ocid": "{{user `my.compartment_ocid`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
       "image_name": "Build300",
       "shape": "VM.Standard2.2",
@@ -33,7 +33,7 @@
       "inline": [
         "sleep 3",
 	      "sudo -u root echo 'varBuild300' > .ImageID",
-	      "sudo -u root yum install -y git tigervnc tigervnc-server xclip docker wget zip"
+	      "sudo -u root yum install -y git xclip wget zip"
  	     ]
     },
     {

@@ -16,7 +16,7 @@
       "availability_domain": "{{user `my.availability_domain`}}",
       "region": "{{user `my.region`}}",
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
-      "compartment_ocid": "{{user `my.compartment_oci`}}",
+      "compartment_ocid": "{{user `my.compartment_ocid`}}",
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
       "image_name": "Build400",
       "shape": "VM.Standard2.2",
