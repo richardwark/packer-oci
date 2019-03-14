@@ -15,7 +15,7 @@ To learn more about this workshop please watch the video below.
 <a href="https://www.youtube.com/watch?" target="video">Workshop Overview Video</a>
 
 
-**Step 1**: Acquire an Oracle Cloud Trial Account
+### **Step 1**: Acquire an Oracle Cloud Trial Account
 
 - Bookmark this page for future reference.
 
