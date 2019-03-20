@@ -12,7 +12,7 @@ To learn more about this workshop please watch the video below.
 
 ![](images/youtube.png)
 
-<a href="https://www.youtube.com/watch?" target="video">Workshop Overview Video</a>
+<a href="https://videohub.oracle.com/media/PackerA+Overview/1_i0algeik" target="video">Workshop Overview Video</a>
 
 
 ### **Step 1**: Acquire an Oracle Cloud Trial Account
