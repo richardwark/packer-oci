@@ -10,10 +10,9 @@ As part of this workshop, you will complete labs helping you to better understan
 
 To learn more about this workshop please watch the video below.  
 
-![](images/)
+![](images/youtube.png)
 
 <a href="https://videohub.oracle.com/media/PackerA+Overview/1_i0algeik" target="_video">Workshop Overview</a>
-
 
 **Step 1**: Acquire an Oracle Cloud Trial Account
 
